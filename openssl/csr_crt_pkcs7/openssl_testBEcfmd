@@ -1,0 +1,17 @@
+foo: bar
+MIME-Version: 1.0
+Content-Disposition: attachment; filename="smime.p7m"
+Content-Type: application/x-pkcs7-mime; smime-type=enveloped-data; name="smime.p7m"
+Content-Transfer-Encoding: base64
+
+MIIBvgYJKoZIhvcNAQcDoIIBrzCCAasCAQAxggFmMIIBYgIBADBKMEUxCzAJBgNV
+BAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
+aWRnaXRzIFB0eSBMdGQCAQAwDQYJKoZIhvcNAQEBBQAEggEAlller6fCHf47bfn2
+4CNsourb3RoqLgGXmApM/vvQ34StCpZTcVa3W6GknSz41rJP4TV2h2mX75Bj0Edn
+rqjXYpIcBiYZ8FL3c9XG4EVoftJZ8HxTOOAtjva9Dve8BpK8YLllLqrCVEgEboRN
+94IoFPMV7j94jl53q42VA8FK+F79H/94XqdnRhTt/1a5V465RyEdgzvKvAUt6L+1
+9r43S6Qduf6/LVvW3ABkfa0PkSEooPi40vnqC1Zkpbizta4Na7asfDSMFEysHP/t
+oupkAEjB95sABSSrxjlzjZ/RFvgoCr9RBEy79FWub+7He1ILDgvVaW2od86cdygi
+Kg6e4jA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAECBBCxQr3ASFAnVGTpx+s0Izef
+gBBz5FDhiqmS8s5GDwRG7xx/
+

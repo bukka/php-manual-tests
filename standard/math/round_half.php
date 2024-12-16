@@ -1,0 +1,3 @@
+<?php
+var_dump(round(0.49999999999999994, 0, PHP_ROUND_HALF_DOWN), 0.49999999999999994);
+var_dump(round(0.5, 0, PHP_ROUND_HALF_DOWN), 0.5);

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.phpt": "php",
+        "*.inc": "php",
+        "fastcgi_params": "c"
+    }
+}

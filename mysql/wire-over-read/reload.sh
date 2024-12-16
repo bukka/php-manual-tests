@@ -1,0 +1,1 @@
+mysql -u php_test -p"PHPdev0*" php_test  < data.sql

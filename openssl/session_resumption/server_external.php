@@ -63,9 +63,9 @@ $ctx = stream_context_create(['ssl' => [
     //'no_ticket' => true,
     'session_id_context' => 'data',
     
-    'session_new_cb' => function($stream, $sessionId, $sessionData) use (&$sessionStore, &$stats) {
-        $key = bin2hex($sessionId);
-        $sessionStore[$key] = $sessionData;
+    'session_new_cb' => function($stream, $session) use (&$sessionStore, &$stats) {
+        $key = bin2hex($session->id);
+        $sessionStore[$key] = $session;
         $stats['new_cb_count']++;
         
         echo "[SESSION_NEW] Session ID: $key (length: " . strlen($sessionData) . " bytes)\n";

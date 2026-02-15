@@ -21,9 +21,9 @@ echo "Connecting to $addr...\n";
 $ctx1 = stream_context_create(['ssl' => [
     'verify_peer' => false,
     'verify_peer_name' => false,
-    'session_new_cb' => function($stream, $sid, $data) use (&$sessionData, &$sessionId) {
-        $sessionId = bin2hex($sid);
-        $sessionData = $data;
+    'session_new_cb' => function($stream, $session) use (&$sessionData, &$sessionId) {
+        $sessionId = bin2hex($session->id);
+        $sessionData = $session;
         echo "  [Callback] New session received!\n";
         echo "  [Callback] Session ID: $sessionId\n";
         echo "  [Callback] Session data length: " . strlen($data) . " bytes\n";
